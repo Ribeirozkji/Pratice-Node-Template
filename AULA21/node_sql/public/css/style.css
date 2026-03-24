@@ -67,3 +67,40 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background: #0ea5e9;
 }
+
+.teste_containers {
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+
+    background: #1e293b;
+    border-radius: 10px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.teste_containers a {
+    display: inline-block;
+    margin-bottom: 15px;
+
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.teste_containers a:hover {
+    text-decoration: underline;
+}
+
+.teste_containers div {
+    padding: 10px;
+    margin-bottom: 10px;
+
+    background: #0f172a;
+    border-radius: 6px;
+}
+
+.bold {
+    font-weight: bold;
+    color: #38bdf8;
+}
